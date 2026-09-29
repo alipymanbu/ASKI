@@ -1,95 +1,26 @@
-# ASKI main package
+# ASKI
 
-ASKI is a highly modularized program suite offering sensitivity and regularization analysis tools 
-for seismic datasets as well as a scattering-integral-type full waveform inversion concept based 
-on waveform sensitivity (Fréchet) kernels derived from Born scattering theory (Gauss-Newton 
-convergence). ASKI does not implement an intrinsic code for simulation of seismic wave propagation 
-but instead comes with support for several external forward codes for 1D and 3D background media 
-in spherical and Cartesian framework, at the moment 
-[SPECFEM3D_Cartesian](https://github.com/seismology-RUB/SPECFEM3D_Cartesian_for_ASKI), 
-[SPECFEM3D_GLOBE](https://github.com/seismology-RUB/SPECFEM3D_GLOBE_for_ASKI), 
-[Gemini II](https://www.geophysik.rub.de/trac/gemini) and 
-[NEXD](http://www.rub.de/nexd). 
+本仓库是「ASKI」的安卓版本获取入口，附使用资料索引。
 
+## 安装文件资源（夸克网盘）
 
-## Authors and License
+> **ASKI 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/872feaf178e7](https://pan.quark.cn/s/872feaf178e7)
 
-ASKI and some of its components, as well as documentation and some examples
-are available under terms of the [GNU General Public License](LICENSE) (version 2 or higher)
-on [github](https://github.com/seismology-RUB/ASKI).
-Please find contact addresses [there](https://github.com/seismology-RUB), or visit 
-http://www.rub.de/aski in case you want to get in touch with the authors. If you 
-encounter any problems installing or using the software, it will be helpful to 
-open (or add to) an "issues" topic at the [github repository](https://github.com/seismology-RUB/ASKI).
+## 官方项目
 
-The main authors are Florian Schumacher and Wolfgang Friederich (Ruhr-University Bochum, Germany).
+- 上游项目：[seismology-RUB/ASKI](https://github.com/seismology-RUB/ASKI)
 
+## 更多资料
 
-## Documentation
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ASKI/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [AI绘画生成图片](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ASKI/AI%E7%BB%98%E7%94%BB%E7%94%9F%E6%88%90%E5%9B%BE%E7%89%87.md)
+- [写作与文案生成](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ASKI/%E5%86%99%E4%BD%9C%E4%B8%8E%E6%96%87%E6%A1%88%E7%94%9F%E6%88%90.md)
+- [常见问题与故障排除](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ASKI/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E6%95%85%E9%9A%9C%E6%8E%92%E9%99%A4.md)
+- [改名与版本变动](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ASKI/%E6%94%B9%E5%90%8D%E4%B8%8E%E7%89%88%E6%9C%AC%E5%8F%98%E5%8A%A8.md)
+- [问答与对话技巧](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ASKI/%E9%97%AE%E7%AD%94%E4%B8%8E%E5%AF%B9%E8%AF%9D%E6%8A%80%E5%B7%A7.md)
+- [首次启动与界面导览](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/ASKI/%E9%A6%96%E6%AC%A1%E5%90%AF%E5%8A%A8%E4%B8%8E%E7%95%8C%E9%9D%A2%E5%AF%BC%E8%A7%88.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-Please refer to documents in [doc/](doc/) :
+---
 
-* the [ASKI user manual](doc/ASKI_manual.pdf)
-* [Florian Schumacher's doctoral dissertation](doc/dissertation_florian_schumacher.pdf) 
-  about waveform sensitivity kernels and the modularized iterative full waveform inversion 
-  concept on which ASKI is based
-* the accepted version of our [GJI 2016 paper](doc/ASKI_paper_gji_2016.pdf), re-typeset in 
-  a standard layout
-* our [SoftwareX 2016 paper](doc/ASKI_paper_softx_2016.pdf),  
-  [published as Open Access](http://dx.doi.org/10.1016/j.softx.2016.10.005) under the
-  [CC BY license](http://creativecommons.org/licenses/by/4.0/)
-
-
-## Toy examples
-
-Any files packages for the ASKI toy examples, as described in the [manual](doc/ASKI_manual.pdf) (chapter 0 *ASKI workflows*) are attached to [release 1.0 of the ASKI main package](https://github.com/seismology-RUB/ASKI/releases/tag/v1.0). These inversion examples use release version 1.0 of the extension packages [SPECFEM3D_Cartesian](https://github.com/seismology-RUB/SPECFEM3D_Cartesian_for_ASKI/releases/tag/v1.0) and [SPECFEM3D_GLOBE](https://github.com/seismology-RUB/SPECFEM3D_GLOBE_for_ASKI/releases/tag/v1.0), respectively.
-
-
-## Requirements
-
-* GNU Make
-* Fortran compiler (sufficient standard, so far tested: GNU Fortran 
-  (Ubuntu 5.4.0-6ubuntu1~16.04.2) 5.4.0 20160609)
-* BLAS and LAPACK  libraries for all applications
-* BLACKS, SCALAPACK and MPI libraries optionally for few parallel applications 
-  (e.g. available via [netlib.org/](http://www.netlib.org/))
-
-
-## Installation
-
-0. If not yet done, you should downloade the source code of the ASKI main package by either
-   * cloning the master branch of the ASKI repository on gitHub.com:
-     ```
-     git clone --depth 1 --branch master https://github.com/seismology-RUB/ASKI
-     ```
-     
-   * or downloading a zipped version of the source code from [there](https://github.com/seismology-RUB/ASKI/archive/master.zip):
-     ```
-     wget https://github.com/seismology-RUB/ASKI/archive/master.zip
-     ```
-     
-     The directory to where you have cloned/extracted the master branch, will in the following be referred to as `ASKI/`
-1. Adjust the software to your system and personal requirements by:
-   * setting the variables `COMPILER`, `MPICOMPILER` in file [ASKI/Makefile](Makefile) appropriately
-   * setting the variables `BLAS`, `LAPACK`, (`BLACS`, `SCALAPACK`, `MPILIB`) in file [ASKI/Makefile](Makefile) in 
-     order to correctly bind required libraries
-   * adjusting the variable `FFLAGS` in file [ASKI/Makefile](Makefile), if required
-
-2. Run command
-   ```
-   make all
-   ```
-   from installation path `ASKI/` to compile all serial programs (nearly all functionality)
-
-3. Run command
-   ```
-   make parallel
-   ```
-   from installation path `ASKI/` to compile all parallel programs (two optional linear system solvers which run in parallel)
-
-Now [ASKI/bin](bin/) should contain all binaries and no error should have occurred (at best...).
-
-
-## Usage
-
-Refer to the [user manual](doc/ASKI_manual.pdf) for any details on using ASKI.
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/seismology-RUB/ASKI)。
